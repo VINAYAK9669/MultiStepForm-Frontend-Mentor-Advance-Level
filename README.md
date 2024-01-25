@@ -28,7 +28,6 @@ This project is a solution to the Frontend Mentor challenge, where I created a r
 
 3. **Reusable Components:** Demonstrated the use of reusable components, such as a single Button component responsible for handling all form interactions. 🔄
 
-4. **Performance Optimization:** Improved performance using efficient methods like reducers and filters. ⚡
 
 ## Notes
 
