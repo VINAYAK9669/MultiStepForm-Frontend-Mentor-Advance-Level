@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+import { useSelector } from "react-redux";
 import { Link, useLocation } from "react-router-dom";
 
 function NavList() {
@@ -11,7 +12,9 @@ function NavList() {
   const activeSpan = "bg-primary-Pastel-blue text-primary-Marine-blue";
   const stpeNames =
     "text-neutral-White  font-semibold uppercase hidden md:block";
-
+  const firstPageData = useSelector((state) => state.personalInfo.name);
+  const secondPageData = useSelector((state) => state.planInfo.name);
+  const summaryPageData = useSelector((state) => state.addOn.name);
   return (
     <div className="col-span-5 md:col-span-3  bg-bg_sidebar_mobile md:bg-bg_sidebar_desktop bg-cover md:bg-cover bg-center md:bg-center rounded-md flex  center md:px-[3rem] md:py-7 justify-center h-[25dvh]  w-full md:h-full">
       <ul className="flex flex-row  md:flex-col md:gap-y-4  ">
@@ -36,7 +39,7 @@ function NavList() {
             <span className="text-primary-Pastel-blue hidden md:block">
               STEP 2
             </span>
-            <Link to="/plans" className={stpeNames}>
+            <Link to={firstPageData ? "/plans" : "/"} className={stpeNames}>
               {" "}
               Select Plan
             </Link>
@@ -52,7 +55,10 @@ function NavList() {
             <span className="text-primary-Pastel-blue hidden md:block">
               STEP 3
             </span>
-            <Link to="/add-ons" className={stpeNames}>
+            <Link
+              to={firstPageData && secondPageData ? "/add-ons" : "/"}
+              className={stpeNames}
+            >
               {" "}
               Add-Ons
             </Link>
@@ -68,7 +74,7 @@ function NavList() {
             <span className="text-primary-Pastel-blue hidden md:block">
               STEP 4
             </span>
-            <Link to="/summary" className={stpeNames}>
+            <Link to={firstPageData ? "/summary" : "/"} className={stpeNames}>
               Summary
             </Link>
           </div>

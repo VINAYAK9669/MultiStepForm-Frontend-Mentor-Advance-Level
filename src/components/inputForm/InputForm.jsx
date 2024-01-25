@@ -19,7 +19,7 @@ function InputForm() {
 
   return (
     <>
-      <div className="relative box-border grid max-w-[800px] grid-flow-row  md:grid-flow-col md:grid-cols-8  md:gap-8 bg-neutral-White md:p-3 h-[100dvh]  md:h-[55dvh]">
+      <div className="relative box-border grid max-w-[800px] grid-flow-row  md:grid-flow-col md:grid-cols-8  md:gap-8 bg-neutral-White md:p-2 h-[100dvh]  md:h-[60dvh]">
         <NavList />
         <div className="relative col-span-5 bg-neutral-White px-[2rem] flex flex-col md:py-2 box-border max-w-[800px] mt-[-3rem] md:mt-[0rem]  ">
           <div className="flex flex-col   md:py-4">
@@ -30,7 +30,7 @@ function InputForm() {
               </p>
             </div>
           </div>
-          <form className="w-full mt-4">
+          <form className="w-full mt-3">
             <div className="flex flex-col gap-3">
               <div>
                 <label htmlFor="userName" className={label}>

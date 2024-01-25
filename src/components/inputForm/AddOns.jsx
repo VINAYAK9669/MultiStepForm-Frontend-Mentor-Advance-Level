@@ -57,7 +57,7 @@ function AddOns() {
   }
   return (
     <>
-      <div className="relative box-border grid max-w-[800px] grid-flow-row  md:grid-flow-col md:grid-cols-8  md:gap-8 bg-neutral-White md:p-3 h-[100dvh] md:h-[55dvh]">
+      <div className="relative box-border grid max-w-[800px] grid-flow-row  md:grid-flow-col md:grid-cols-8  md:gap-8 bg-neutral-White md:p-3 h-[100dvh] md:h-[60dvh]">
         <NavList />
 
         <div className="relative col-span-5 bg-neutral-White px-[2rem] flex flex-col py-2 box-border max-w-[800px] mt-[-3rem] md:mt-[0rem]  ">

@@ -30,7 +30,7 @@ function Plan() {
 
   return (
     <>
-      <div className="relative box-border grid max-w-[800px] grid-flow-row  md:grid-flow-col md:grid-cols-8  md:gap-8 bg-neutral-White md:p-3 h-[100dvh] md:h-[55dvh]">
+      <div className="relative box-border grid max-w-[800px] grid-flow-row  md:grid-flow-col md:grid-cols-8  md:gap-8 bg-neutral-White md:p-3 h-[100dvh] md:h-[60vh]">
         <NavList />
         <div className="relative col-span-5 bg-neutral-White px-[2rem] flex flex-col py-2 mt-[-3rem] md:mt-0">
           <div className="flex flex-col justify-center  py-4">

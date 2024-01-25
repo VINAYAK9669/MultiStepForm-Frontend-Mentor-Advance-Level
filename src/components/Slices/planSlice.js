@@ -3,8 +3,8 @@ export const planInfo = createSlice({
   name: "plan",
   initialState: {
     id: 1,
-    price: null,
-    name: null,
+    price: 12,
+    name: "Advanced",
   },
   reducers: {
     planID: (state, action) => {
