@@ -10,7 +10,7 @@ This project is a solution to the Frontend Mentor challenge, where I created a r
 
 ## Github Repository Link
 
-[GitHub Repository](https://github.com/VINAYAK9669/MultiStepForm-Frontend-Mentor-Advance-Level/edit/main/) 
+[GitHub Repository](https://github.com/VINAYAK9669/MultiStepForm-Frontend-Mentor-Advance-Level?tab=readme-ov-file) 
 
 ## Tech Stack Used
 
