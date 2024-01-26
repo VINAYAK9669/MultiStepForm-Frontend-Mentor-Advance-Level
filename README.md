@@ -28,7 +28,7 @@ This project is a solution to the Frontend Mentor challenge, where I created a r
 
 3. **Reusable Components:** Demonstrated the use of reusable components, such as a single Button component responsible for handling all form interactions. 🔄
 
-## Chalneges Faced
+## Challaneges Faced
 
 😏 Once I move to another step, the previous records should be there. So, I implemented Redux to make them global and learn a few advanced things.
 
