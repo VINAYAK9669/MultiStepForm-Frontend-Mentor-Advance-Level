@@ -28,6 +28,17 @@ This project is a solution to the Frontend Mentor challenge, where I created a r
 
 3. **Reusable Components:** Demonstrated the use of reusable components, such as a single Button component responsible for handling all form interactions. 🔄
 
+## Chalneges Faced
+
+😏 Once I move to another step, the previous records should be there. So, I implemented Redux to make them global and learn a few advanced things.
+
+😒 When I decided to use a button as a reusable component, I faced challenges in handling all the form submissions, such as routing for all pages and error handling, and styling dependent on whether the button is the next button or back button.
+
+😭 The toughest thing I faced was while selecting checkboxes. I needed to update them in Redux whenever the user clicked on one of the checkboxes. If the user deselected a checkbox, I had to delete it from the global state. Not only this, but once the user moved to the forward step and came back again to this page, I had to show them the selected checkboxes. To be honest, I wasted around 3+ hours fixing this issue.
+
+😍 During the page navigation, I had to prevent the user from navigating through the steps. The user can navigate through steps only upon filling the first step correctly.
+
+
 
 ## Notes
 
