@@ -38,6 +38,26 @@ This project is a solution to the Frontend Mentor challenge, where I created a r
 
 😍 During the page navigation, I had to prevent the user from navigating through the steps. The user can navigate through steps only upon filling the first step correctly.
 
+## How to Install and Run
+
+1. Clone the repository:
+
+    ```bash
+    gh repo clone VINAYAK9669/MultiStepForm-Frontend-Mentor-Advance-Level
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    cd MultiStepForm-Frontend-Mentor-Advance-Level
+    npm install
+    ```
+
+3. Start the development server:
+
+    ```bash
+    npm run dev
+    ```
 
 
 ## Notes
